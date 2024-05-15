@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Quizz.css">
+</head>
+<body>
+    <div id="welcome-container" class="container">
+        <h1>Welcome to the Web Development Quiz</h1>
+        <p>Test your knowledge on HTML, CSS, and JavaScript!</p>
+        <button id="start-btn" class="btn">Start Quiz</button>
+        <button id="instruction-btn" class="btn">Instructions</button>
+    </div>
+    <div id="instruction-container" class="container hide">
+        <h1>Instructions</h1>
+        <ul>
+            <li>There are 10 questions in this quiz.</li>
+            <li>You have 30 seconds to answer each question.</li>
+            <li>Your score will be displayed at the end of the quiz.</li>
+        </ul>
+        <button id="back-btn" class="btn">Back</button>
+    </div>
+    <div id="quiz-container" class="container hide">
+        <div id="question-container" class="hide">
+            <div id="question-number" class="question-number"></div>
+            <div class="question" id="question"></div>
+            <div id="answer-buttons" class="btn-container"></div>
+            <button id="next-btn" class="btn hide">Next</button>
+        </div>
+        <div class="time" id="time">Time left: <span id="time-left">30</span></div>
+    </div>
+    <div id="result-container" class="container hide">
+        <h1>Your Score</h1>
+        <div id="score"></div>
+        <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+    <script src="Quizz.js"></script>
+</body>
+</html>
+
+
+
+
+
+
