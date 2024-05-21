@@ -1,4 +1,4 @@
-# Quizz-Project
+# DryCode Quiz-Project
 An interactive quiz application designed to test and enhance your web development knowledge. Built using HTML5, CSS3, and JavaScript, this app provides an engaging and educational experience for developers at all levels.
 
 Features
